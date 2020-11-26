@@ -1,0 +1,19 @@
+.welcomeTitle {
+  text-align: center;
+  margin-top: 8rem;
+}
+.loginForm {
+  min-width: 500px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .loginButton {
+    width: 18rem;
+  }
+  .err {
+    font-size: small;
+    color: red;
+  }
+}

@@ -1,0 +1,22 @@
+{
+   "chatList":[
+      {
+         "name":"Kilo Health",
+         "chats":[
+            {
+               "email":"mylimas.ernestas@gmail.com",
+               "text":"Laba diena"
+            }
+         ]
+      },
+      {
+         "name":"Global",
+         "chats": [
+            {
+               "email":"mylimas.ernestas@gmail.com",
+               "text":"Holla"
+            }
+         ]
+      }
+   ]
+}
