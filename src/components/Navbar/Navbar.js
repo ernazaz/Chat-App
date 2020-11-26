@@ -1,20 +1,20 @@
-import React, { useEffect, useState } from "react";
-import { useHistory, Link } from "react-router-dom";
+import React, { useEffect, useState } from 'react';
+import { useHistory, Link } from 'react-router-dom';
 
 const Navbar = () => {
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState('');
   const history = useHistory();
 
   const logout = () => {
-    localStorage.setItem("email", "");
+    localStorage.setItem('email', '');
     setEmail();
-    history.push("/login");
+    history.push('/');
   };
 
   useEffect(() => {
-    const userEmail = localStorage.getItem("email");
+    const userEmail = localStorage.getItem('email');
     if (userEmail) setEmail(userEmail);
-  }, []);
+  });
 
   return (
     <div>
@@ -39,7 +39,7 @@ const Navbar = () => {
             </ul>
           ) : (
             <ul className="navbar-nav">
-              <Link className="nav-link" to="/login">
+              <Link className="nav-link" to="/">
                 Login
               </Link>
             </ul>
