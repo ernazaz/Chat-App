@@ -1,0 +1,12 @@
+.profile {
+  min-width: 500px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .err {
+    font-size: small;
+    color: red;
+  }
+}
